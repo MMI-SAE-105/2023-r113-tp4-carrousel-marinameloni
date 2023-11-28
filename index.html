@@ -10,9 +10,12 @@
 </style>
 </head>
 <body>
+    <h1>Carrousel</h1>
     <div class="carrousel" x-data="{}">
-        <button class="carrousel_btn carrousel_btn-avant" aria-label="slide précedant"><</button><button class="carrousel_btn carrousel_btn-apres" aria-label="slide suivant">></button>
-        <div class="carrousel_parent-ecrans">
+        <button @click="">
+        </button>class="carrousel_btn carrousel_btn-avant" aria-label="slide précedant"><</button><button class="carrousel_btn carrousel_btn-apres" aria-label="slide suivant">></button>
+        <div class="carrousel_parent-ecrans" x-ref="parent">
+        
             <div id="ecran-1" class="carrousel_ecran">
                 <figure>
                     <img src="https://picsum.photos/seed/1/500/300" alt="image ecran 1">
@@ -41,7 +44,7 @@
                 <figure>
                     <img src="https://picsum.photos/seed/5/500/300" alt="image ecran 5">
                     <figcaption>Ecran 5</figcaption>
-                </figure>
+                </figure>        
             </div>
         </div>
         <ul class="caroussel_liste-liens">

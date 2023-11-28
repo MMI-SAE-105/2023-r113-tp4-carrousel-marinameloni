@@ -1,0 +1,23 @@
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 5%;
+}
+
+
+.carrousel_parent-ecrans {
+    line-height: 4;
+    vertical-align: middle;
+    /* largeur du parent */
+
+}
+
+.carrousel_ecran {
+    /* largeur du parent pour chaque enfant */
+    /* permet de garder toute la largeur du parent */
+}
+
+.carrousel_ecran figure {
+    /* enlève les marges par défaut */
+}

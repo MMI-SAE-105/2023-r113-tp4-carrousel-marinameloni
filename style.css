@@ -1,3 +1,7 @@
+*   {
+    box-sizing: border-box;
+}
+
 img {
     max-width: 100%;
     height: auto;
@@ -7,15 +11,19 @@ img {
 
 
 .carrousel_parent-ecrans {
-    line-height: 4;
-    vertical-align: middle;
-    /* largeur du parent */
+    display: flex;
+    overflow-x: scroll;
+    scroll-behavior: smooth;
+    scroll-snap-type: mandatory;
+    text-align: center;
 
 }
 
-.carrousel_ecran {
-    /* largeur du parent pour chaque enfant */
-    /* permet de garder toute la largeur du parent */
+.carrousel_ecran 
+{  width: 100%;
+    flex: 0 0 100%;
+    scroll-snap-align: start;
+
 }
 
 .carrousel_ecran figure {

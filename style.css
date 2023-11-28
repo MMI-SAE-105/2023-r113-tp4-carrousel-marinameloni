@@ -27,5 +27,13 @@ img {
 }
 
 .carrousel_ecran figure {
-    /* enlève les marges par défaut */
+    margin: none;
+}
+
+.caroussel_liste-liens {
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    padding: 0;
+    margin: 0;
 }

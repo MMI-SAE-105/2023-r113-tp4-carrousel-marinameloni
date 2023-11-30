@@ -11,7 +11,7 @@
 </head>
 <body>
     <h1>Carrousel</h1>
-    <div class="carrousel" x-data="{}">
+    <div class="carrousel" x-data="{hrefCourant: '#ecran-1'}">
         <div class="carrousel_parent-ecrans" x-ref="parent">
         <button class="carrousel_btn carrousel_btn-avant" aria-label="slide"
             @click="$refs.parent.scrollLeft-=$refs.parent.clientWidth">< </button>

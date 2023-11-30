@@ -72,7 +72,10 @@ img {
     text-align: center;
     padding: 0;
     margin: 0;
-    gap: 1rem; .caroussel_liste-liens li {
+    gap: 1rem;
+}
+
+.caroussel_liste-liens li {
     scroll-snap-align: start;
 }    justify-content:center;
-}
+

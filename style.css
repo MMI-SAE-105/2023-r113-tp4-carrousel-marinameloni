@@ -67,6 +67,7 @@ img {
 .caroussel_liste-liens {
     display: flex;
     overflow-x: scroll;
+    list-style: none;
     scroll-behavior: smooth;
     scroll-snap-type: mandatory;
     justify-content: center;
